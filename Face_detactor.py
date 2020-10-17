@@ -15,6 +15,6 @@ while True:
   cv2.imshow("Kshitij face Detector",frame)
   key=cv2.waitKey(1)
 
-  if key==81 or key==113:
+  if key==81 or key==180:
    break
 webcam.release()
